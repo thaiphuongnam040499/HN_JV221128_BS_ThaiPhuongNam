@@ -112,7 +112,7 @@ public class Book implements IBook,Comparable<Book> {
 
     @Override
     public void displayData() {
-        System.out.println("----------------------------------------------------------");
+        System.out.println("----------BOOK_MANAGEMENT----------");
         System.out.printf("mã sách: %d\n", bookId);
         System.out.printf("tên sách: %s\n", bookName);
         System.out.printf("title: %s\n", title);
@@ -121,7 +121,7 @@ public class Book implements IBook,Comparable<Book> {
         System.out.printf("giá bán: %s\n", exportPrice);
         System.out.printf("lợi nhuận: %s\n", interest);
         System.out.printf("trạng thái sách: %s\n", bookStatus ? "bán" : "không bán");
-        System.out.println("----------------------------------------------------------");
+        System.out.println("----------BOOK_MANAGEMENT----------");
     }
 
 

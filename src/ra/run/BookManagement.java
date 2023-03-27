@@ -77,8 +77,9 @@ public class BookManagement {
     }
 
     public static void sortByInterest(List<Book> list) {
-        Collections.sort(list);
-        displayBook(list);
+        List<Book> listSort = new ArrayList<>(list);
+        Collections.sort(listSort);
+        displayBook(listSort);
     }
 
     public static void deleteBookById(List<Book> list, Scanner scanner) {
